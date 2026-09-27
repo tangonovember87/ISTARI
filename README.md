@@ -192,6 +192,12 @@ When the H3-VR is taped against a structural element, structure-borne vibration 
 
 ---
 
+![Waveform and Spectrogram](images/09_waveform_spectrogram.png)
+
+![Frequency Shift Damage Indicator](images/10_freq_shift.png)
+
+---
+
 ## Modality 3: Computer Vision (25%)
 
 ### Role in the Pipeline
@@ -209,6 +215,8 @@ ISTARI processes video frames through a multi-stage OpenCV pipeline:
 5. **Morphological filtering:** Retain only elongated, continuous, high-aspect-ratio features
 6. **Contour analysis:** Minimum crack length, maximum width constraints to reject aggregate texture
 
+![Crack Detection Pipeline](images/05_crack_detection.png)
+
 The output is a crack density metric (fraction of the inspected surface with confirmed crack features) mapped to a visual health score.
 
 > Next phase: YOLOv8 + SAM segmentation fine-tuned on the CODEBRIM dataset (Concrete Defect Bridge Image dataset) for semantic crack classification.
@@ -216,6 +224,8 @@ The output is a crack density metric (fraction of the inspected surface with con
 ---
 
 ## Field Validation: Figueroa Street Overpass, Los Angeles
+
+![Field Deployment Schematic](images/08_deployment.png)
 
 On September 27, 2026, ISTARI conducted its first real-world field recording at the Figueroa Street overpass over Interstate 110, Los Angeles -- a 10-minute walk from the USC campus.
 
@@ -301,7 +311,12 @@ Record with any 4-channel AmbiX B-format recorder (Zoom H3-VR, Sennheiser Ambeo,
 
 ---
 
+![Damping Ratio Health Classification](images/06_damping_health.png)
+
 ## Competitive Advantage
+
+![Competitive Analysis](images/07_competitive.png)
+
 
 | Capability | Industrial AET | ISTARI |
 |---|---|---|
