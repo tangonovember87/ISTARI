@@ -1,0 +1,8 @@
+__pycache__/
+*.py[cod]
+*.wav
+*.WAV
+*.mp4
+data/sample/
+.env
+.streamlit/secrets.toml
