@@ -7,6 +7,8 @@ Origin Weekend Fall 2026 | Prompt D: Infrastructure and Resilience | USC Tiehub
 
 > *Infrastructure kills silently. ISTARI listens before it fails.*
 
+![ISTARI Pipeline](images/04_pipeline.png)
+
 ---
 
 ## The Problem
@@ -138,6 +140,8 @@ ISTARI applies first-order beamforming to steer a virtual cardioid microphone to
 | Mid acoustic | 500 Hz - 5 kHz | Full capability | Surface cracking, material discontinuities |
 | High acoustic | 5 kHz - 24 kHz | Full capability | Micro-cracking, material grain boundaries |
 
+![FDD-OMA Acoustic Analysis](images/02_fdd_oma_acoustic.png)
+
 ### OMA: Operational Modal Analysis
 
 ISTARI implements Frequency Domain Decomposition (FDD), a standard Operational Modal Analysis technique. The cross-spectral density matrix is computed across all four B-format channels, and singular value decomposition is applied at each frequency bin. Peaks in the first singular value correspond to structural natural frequencies -- extracted from ambient traffic, wind, and thermal excitation, without any artificial impact or excitation.
@@ -179,6 +183,8 @@ zeta = (f2 - f1) / (2 * f_n)
 ```
 
 Where `f1` and `f2` are the -3 dB points on either side of the resonance peak. Healthy concrete structures exhibit damping ratios of 1-3% (zeta = 0.01-0.03). Damaged structures show elevated damping as energy is dissipated at crack faces and loose joints.
+
+![Contact Vibration PSD](images/01_vibration_psd.png)
 
 ### Contact Mode Measurement
 
@@ -226,6 +232,8 @@ On September 27, 2026, ISTARI conducted its first real-world field recording at 
 Format: AmbiX B-format, 48 kHz, 24-bit, 4 channels
 
 ### Results
+
+![ISTARI Health Dashboard](images/03_health_dashboard.png)
 
 | Modality | Score | Key Finding |
 |---|---|---|
