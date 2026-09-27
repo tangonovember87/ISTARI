@@ -325,7 +325,6 @@ Record with any 4-channel AmbiX B-format recorder (Zoom H3-VR, Sennheiser Ambeo,
 | Ishan Bhakta | Engineering -- Viterbi School |
 | Adolfo Balderas | Engineering -- Viterbi School |
 | Amogh Skanda | Engineering / Computer Vision -- Viterbi School |
-| Solal Chasques | Engineering -- Viterbi School |
 
 *Origin Weekend Fall 2026 | USC Tiehub | Prompt D: Infrastructure and Resilience*
 
