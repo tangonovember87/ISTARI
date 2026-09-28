@@ -3,7 +3,7 @@ ISTARI -- Integrated Structural Testing and Acoustic Resonance Intelligence
 Streamlit Demo App
 
 Structural health monitoring via Acoustics + Vibration + Computer Vision.
-Origin Weekend Fall 2026 | Team ISTARI | Mithrandir Dynamics
+Origin Weekend Fall 2026 | Team ISTARI
 """
 
 import streamlit as st
@@ -67,10 +67,8 @@ with st.sidebar:
     st.markdown("**Team ISTARI**")
     st.markdown("Tariq Nazar | Ishan Bhakta")
     st.markdown("Adolfo Balderas | Amogh Skanda")
-    st.markdown("Solal Chasques")
     st.markdown("---")
     st.markdown("*Origin Weekend Fall 2026*")
-    st.markdown("*Mithrandir Dynamics*")
 
     demo_mode = st.checkbox("Use Figueroa Overpass Sample Data", value=True,
                              help="Pre-loaded field recordings from I-110 Figueroa St overpass (Sep 27, 2026)")
@@ -336,8 +334,7 @@ with tab3:
 
     **Team**
 
-    Tariq Nazar (Founder, Mithrandir Dynamics) | Ishan Bhakta | Adolfo Balderas |
-    Amogh Skanda | Solal Chasques
+    Tariq Nazar | Ishan Bhakta | Adolfo Balderas | Amogh Skanda
 
     *Origin Weekend Fall 2026 -- USC Tiehub*
     """)
