@@ -5,7 +5,6 @@ Designed for phone/drone footage of bridge columns, beams, and decks.
 
 Next phase: YOLOv8 + SAM fine-tuned on CODEBRIM dataset.
 Current implementation: edge-density and morphological crack detection.
-INTERNAL -- Not for distribution.
 """
 
 import cv2

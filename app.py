@@ -54,8 +54,6 @@ st.markdown("""
 
 # ── Sidebar ─────────────────────────────────────────────────────────────────────
 with st.sidebar:
-    st.image("https://raw.githubusercontent.com/tariqnazar/ISTARI/main/assets/logo.png",
-             use_column_width=True) if False else None
     st.markdown("## ISTARI")
     st.markdown("**I**ntegrated **S**tructural **T**esting and **A**coustic **R**esonance **I**ntelligence")
     st.markdown("---")

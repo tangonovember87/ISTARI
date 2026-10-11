@@ -1,7 +1,6 @@
 """
 ISTARI Acoustic Pipeline
 AmbiX B-format processing: beamforming, PSD, resonance detection.
-INTERNAL -- Not for distribution.
 """
 
 import numpy as np
@@ -23,7 +22,6 @@ def beamform(data, azimuth_deg=0.0, elevation_deg=0.0):
     AmbiX first-order beamforming.
     Steers a virtual cardioid microphone toward (azimuth, elevation).
 
-    Formula: P(az,el) = W + X*cos(az)*cos(el) + Y*sin(az)*cos(el) + Z*sin(el)
     AmbiX channel order: W=0, Y=1, Z=2, X=3
 
     Args:
